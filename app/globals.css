@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+/* ============================================================
+   DESIGN TOKENS
+   Warm off-white base, charcoal text, and one cobalt accent.
+   ============================================================ */
+
+:root {
+  --color-bg: #F7F5F0;
+  --color-bg-panel: #FFFFFF;
+  --color-charcoal: #1C1C1E;
+  --color-charcoal-soft: #4A4A4D;
+  --color-accent: #2F5EFF;        /* cobalt blue accent */
+  --color-accent-soft: #E8EDFF;
+  --color-border: #E4E0D8;
+  --color-wood: #B8875A;
+  --color-wood-dark: #8C6540;
+
+  --font-display: var(--font-space-grotesk), sans-serif;
+  --font-body: var(--font-inter), sans-serif;
+  --font-mono: var(--font-jetbrains-mono), monospace;
+}
+
+@theme inline {
+  --color-bg: var(--color-bg);
+  --color-bg-panel: var(--color-bg-panel);
+  --color-charcoal: var(--color-charcoal);
+  --color-charcoal-soft: var(--color-charcoal-soft);
+  --color-accent: var(--color-accent);
+  --color-accent-soft: var(--color-accent-soft);
+  --color-border: var(--color-border);
+  --color-wood: var(--color-wood);
+  --color-wood-dark: var(--color-wood-dark);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-charcoal);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-label {
+  font-family: var(--font-mono);
+  letter-spacing: 0.05em;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}

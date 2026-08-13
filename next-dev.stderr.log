@@ -1,0 +1,744 @@
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  [90m4 |[0m [36mimport[0m [33mNav[0m [36mfrom[0m [32m"@/components/Nav"[0m;
+  [90m5 |[0m [36mimport[0m [33mHero[0m [36mfrom[0m [32m"@/components/Hero"[0m;
+[31m[1m>[0m [90m6 |[0m [36mimport[0m [33mDeskScene[0m [36mfrom[0m [32m"@/components/DeskScene"[0m;
+  [90m  |[0m [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m [36mimport[0m [33mPanelShell[0m [36mfrom[0m [32m"@/components/ui/PanelShell"[0m;
+  [90m8 |[0m [36mimport[0m [33mWorkPanel[0m [36mfrom[0m [32m"@/components/panels/WorkPanel"[0m;
+  [90m9 |[0m [36mimport[0m [33mThinkPanel[0m [36mfrom[0m [32m"@/components/panels/ThinkPanel"[0m;
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[browser] ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  4 | import Nav from "@/components/Nav";
+  5 | import Hero from "@/components/Hero";
+> 6 | import DeskScene from "@/components/DeskScene";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PanelShell from "@/components/ui/PanelShell";
+  8 | import WorkPanel from "@/components/panels/WorkPanel";
+  9 | import ThinkPanel from "@/components/panels/ThinkPanel";
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./app/page.tsx:6:1
+Error: Module not found: Can't resolve '@/components/DeskScene'
+  4 | import Nav from "@/components/Nav";
+  5 | import Hero from "@/components/Hero";
+> 6 | import DeskScene from "@/components/DeskScene";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  7 | import PanelShell from "@/components/ui/PanelShell";
+  8 | import WorkPanel from "@/components/panels/WorkPanel";
+  9 | import ThinkPanel from "@/components/panels/ThinkPanel";
+
+Import map: aliased to relative './components/DeskScene' inside of [project]/
+
+Import traces:
+  Client Component Browser:
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
