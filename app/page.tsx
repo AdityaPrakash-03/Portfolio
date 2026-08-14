@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { X } from "lucide-react";
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
@@ -29,6 +29,16 @@ const panelMeta: Record<
 export default function Home() {
   const [activePanel, setActivePanel] = useState<PanelKey>(null);
   const [showContactOptions, setShowContactOptions] = useState(false);
+
+  useEffect(() => {
+    const requestedPanel = new URLSearchParams(window.location.search).get("panel");
+    if (requestedPanel && requestedPanel in panelMeta) {
+      const frame = window.requestAnimationFrame(() => {
+        setActivePanel(requestedPanel as Exclude<PanelKey, null>);
+      });
+      return () => window.cancelAnimationFrame(frame);
+    }
+  }, []);
 
   return (
     <div className="min-h-screen flex flex-col">
