@@ -1,16 +1,19 @@
 export type PortfolioItem = {
   title: string;
-  category: "Teardown" | "Case Study" | "Competitive Analysis" | "PRD / Research" | "In Progress";
+  category: "Teardown" | "Product Teardown" | "Case Study" | "Product Strategy" | "Product Analysis" | "Competitive Analysis" | "PRD / Research" | "In Progress";
   driveUrl: string;
   note?: string;
 };
 
 export const portfolioItems: PortfolioItem[] = [
+  { title: "LinkedIn Jobs", category: "Product Teardown", driveUrl: "https://drive.google.com/drive/folders/1FoKCieLOZYUqCYj7ZdcQNJsRMMMVDxnI?usp=drive_link" },
+  { title: "Flipkart Minutes", category: "Product Strategy", driveUrl: "https://docs.google.com/document/d/1IurAao6pYjY1UFHa09I7rsFO9P4rrpl6/edit?usp=drive_link&ouid=105528318561955754122&rtpof=true&sd=true" },
+  { title: "VectorShift", category: "Product Strategy", driveUrl: "https://prompt-to-product-vectorshift.vercel.app/" },
+  { title: "Visiblie", category: "Product Strategy", driveUrl: "https://visibliememo.vercel.app/" },
+  { title: "Hair Healthcare", category: "Product Analysis", driveUrl: "https://docs.google.com/presentation/d/1WcamHpg8gjGHaOtcxTzkHUYAdIC2dbNt/edit?usp=sharing&ouid=105528318561955754122&rtpof=true&sd=true" },
   { title: "TAL / Grapevine", category: "Teardown", driveUrl: "https://docs.google.com/document/d/1lG7w6ZAGpl9lwH40UDyxhw3Fh0og5YCj/edit?usp=drive_link&ouid=105528318561955754122&rtpof=true&sd=true", note: "Notes on trust, memory, and language consistency in an AI talent agent." },
   { title: "BlinkMoney", category: "Teardown", driveUrl: "https://docs.google.com/document/d/1zJzS0G5vVO5jQOTY5Cqwdm0UR02jqIa5/edit?usp=sharing&ouid=105528318561955754122&rtpof=true&sd=true", note: "A teardown covering UX, compliance, and conversion." },
   { title: "Vocallabs", category: "Teardown", driveUrl: "https://docs.google.com/document/d/1Pon0OtH-EO1PFkILNV17U-Bqig27qEZK/edit?usp=drive_link&ouid=105528318561955754122&rtpof=true&sd=true", note: "A look at conversation quality and reliability in a voice product." },
-  { title: "Flipkart", category: "Case Study", driveUrl: "https://docs.google.com/document/d/1IurAao6pYjY1UFHa09I7rsFO9P4rrpl6/edit?usp=drive_link&ouid=105528318561955754122&rtpof=true&sd=true" },
-  { title: "LinkedIn", category: "Case Study", driveUrl: "https://drive.google.com/drive/folders/1FoKCieLOZYUqCYj7ZdcQNJsRMMMVDxnI?usp=drive_link" },
   { title: "Apple", category: "Case Study", driveUrl: "https://docs.google.com/document/d/16DC9gRCA1bS7_p9QNloH_nOfmG2azQ5l-89d2RIywzU/edit?usp=drive_link" },
   { title: "Yatra", category: "Case Study", driveUrl: "https://drive.google.com/drive/folders/1Afr9gvcUcc3kTM_XtmqhIV40mKgBAn2v?usp=sharing" },
   { title: "Pixxel", category: "Case Study", driveUrl: "https://drive.google.com/drive/folders/1i5Eoomn8xW0zNKewfFNeBSXaUDDIm13U?usp=sharing", note: "A healthcare and space-tech case study." },
