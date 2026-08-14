@@ -33,8 +33,7 @@ export default function Nav({ onOpenPanel }: NavProps) {
           ))}
           <a
             href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
+            download
             className="ml-1 px-3.5 py-2 text-sm bg-charcoal text-bg-panel rounded-full hover:bg-accent transition-colors"
           >
             Resume

@@ -66,8 +66,7 @@ export default function Hero() {
         </a>
         <a
           href={hero.ctaSecondary.href}
-          target="_blank"
-          rel="noopener noreferrer"
+          download
           className="px-5 py-2.5 rounded-full border border-border text-charcoal text-sm font-medium hover:border-accent transition-colors"
         >
           {hero.ctaSecondary.label}
