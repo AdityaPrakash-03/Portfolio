@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { Download } from "lucide-react";
 import { hero } from "@/data/content";
 
 type HeroProps = {
@@ -98,13 +99,24 @@ export default function Hero({ onOpenPanel }: HeroProps) {
             </div>
           )}
         </div>
-        <a
-          href={hero.ctaSecondary.href}
-          download
-          className="px-5 py-2.5 rounded-full border border-border text-charcoal text-sm font-medium hover:border-accent transition-colors"
-        >
-          {hero.ctaSecondary.label}
-        </a>
+        <div className="flex items-center gap-1">
+          <a
+            href={hero.ctaSecondary.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-5 py-2.5 rounded-full border border-border text-charcoal text-sm font-medium hover:border-accent transition-colors"
+          >
+            {hero.ctaSecondary.label}
+          </a>
+          <a
+            href={hero.ctaSecondary.href}
+            download
+            aria-label="Download resume PDF"
+            className="rounded-full border border-border p-2.5 text-charcoal-soft transition-colors hover:border-accent hover:bg-accent-soft hover:text-accent"
+          >
+            <Download size={16} />
+          </a>
+        </div>
       </motion.div>
 
       <motion.p

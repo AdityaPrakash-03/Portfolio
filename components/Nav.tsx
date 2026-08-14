@@ -1,5 +1,7 @@
 "use client";
 
+import { Download } from "lucide-react";
+
 type NavProps = {
   onOpenPanel: (panel: "work" | "think" | "about" | "signals" | "toolbox") => void;
 };
@@ -31,13 +33,24 @@ export default function Nav({ onOpenPanel }: NavProps) {
               {link.label}
             </button>
           ))}
-          <a
-            href="/resume.pdf"
-            download
-            className="ml-1 px-3.5 py-2 text-sm bg-charcoal text-bg-panel rounded-full hover:bg-accent transition-colors"
-          >
-            Resume
-          </a>
+          <div className="ml-1 flex items-center gap-1">
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-3.5 py-2 text-sm bg-charcoal text-bg-panel rounded-full hover:bg-accent transition-colors"
+            >
+              Resume
+            </a>
+            <a
+              href="/resume.pdf"
+              download
+              aria-label="Download resume PDF"
+              className="rounded-full border border-border p-2 text-charcoal-soft transition-colors hover:border-accent hover:bg-accent-soft hover:text-accent"
+            >
+              <Download size={15} />
+            </a>
+          </div>
         </div>
       </div>
     </nav>
