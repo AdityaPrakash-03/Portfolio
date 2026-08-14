@@ -17,6 +17,15 @@ export default function DeskScene({ onOpenPanel }: DeskSceneProps) {
   const { isPlaying, toggle } = useAmbientAudio();
   const [isCommandPaletteOpen, setIsCommandPaletteOpen] = useState(false);
   const [mouseAttempts, setMouseAttempts] = useState(0);
+  const [isMouseDodging, setIsMouseDodging] = useState(false);
+
+  function handleMouseEnter() {
+    if (isMouseDodging || mouseAttempts >= 2) return;
+
+    setMouseAttempts((attempts) => attempts + 1);
+    setIsMouseDodging(true);
+    window.setTimeout(() => setIsMouseDodging(false), 700);
+  }
 
   useEffect(() => {
     function handleKeyDown(event: KeyboardEvent) {
@@ -173,9 +182,9 @@ export default function DeskScene({ onOpenPanel }: DeskSceneProps) {
           </InteractiveObject>
           <motion.g
             className="cursor-pointer"
-            onMouseEnter={() => setMouseAttempts((attempts) => Math.min(attempts + 1, 2))}
-            animate={mouseAttempts === 1 ? { x: 42, y: -10 } : mouseAttempts >= 2 ? { x: -34, y: -4 } : { x: 0, y: 0 }}
-            transition={{ type: "spring", stiffness: 500, damping: 18 }}
+            onMouseEnter={handleMouseEnter}
+            animate={isMouseDodging ? mouseAttempts === 1 ? { x: [0, 42, 0], y: [0, -10, 0] } : { x: [0, -34, 0], y: [0, -4, 0] } : { x: 0, y: 0 }}
+            transition={{ duration: 0.65, ease: "easeInOut" }}
           >
             <rect x="492" y="399" width="27" height="35" rx="12" fill="#1C1C1E" />
             <path d="M505 404V414" stroke="#8A8A8D" strokeWidth="2" />

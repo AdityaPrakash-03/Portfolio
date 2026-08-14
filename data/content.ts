@@ -3,9 +3,9 @@ export const hero = {
   role: "Product Builder | AI, Product, and Tech",
   tagline: "I spot a problem, make a first version, and learn from what happens next.",
   proofPoints: ["CSE to Product", "CorpHire from scratch", "NoKasa launch", "Hands-on builder"],
-  ctaPrimary: { label: "See my work", href: "#work" },
+  ctaPrimary: { label: "Explore my work", href: "#work" },
   ctaSecondary: { label: "Resume", href: "/resume.pdf" },
-  exploreLabel: "Take a look at my setup",
+  exploreLabel: "Touch stuff. It actually does things. ↓",
 };
 
 export const about = {

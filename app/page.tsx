@@ -35,7 +35,7 @@ export default function Home() {
       <Nav onOpenPanel={(p) => setActivePanel(p)} />
 
       <main id="work" className="flex-1">
-        <Hero />
+        <Hero onOpenPanel={(panel) => setActivePanel(panel)} />
         <DeskScene onOpenPanel={(p) => setActivePanel(p)} />
 
         {/* Closing CTA */}
