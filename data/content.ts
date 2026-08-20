@@ -24,15 +24,31 @@ export const about = {
 
 export const toolbox = {
   categories: [
-    { label: "Think", items: ["Product Strategy", "User Research", "PRDs", "Metrics", "Prioritization"] },
-    { label: "Build", items: ["Claude", "Cursor", "Lovable", "Antigravity", "Flutter", "Python"] },
-    { label: "Ship", items: ["Figma", "Jira", "Git", "REST APIs", "Supabase", "SQL"] },
+    {
+      label: "Think",
+      items: ["Product Strategy", "Product Discovery", "User Research", "PRDs", "User Stories", "Roadmapping", "Prioritization", "Metrics", "Experiment Design", "KPI Tracking"],
+    },
+    {
+      label: "Prototype",
+      items: ["AI-assisted Prototyping", "AI Product Workflows", "Claude", "Codex", "Cursor", "Lovable", "Figma", "Wireframes", "User Flows"],
+    },
+    {
+      label: "Ship",
+      items: ["Agile Delivery", "Cross-functional Collaboration", "Rapid Iteration", "Jira", "SQL", "Product Analytics", "REST APIs", "Supabase"],
+    },
   ],
   toolUsage: {
-    Claude: "Used for CorpHire research, PRD drafts, and early prototypes.",
-    Lovable: "Used to build the first CorpHire MVP.",
-    Antigravity: "Used to keep CorpHire specs and task context in one place.",
-    Figma: "Used to turn product ideas into clear UI at NoKasa.",
+    "Product Discovery": "Used to separate the real user problem from the first solution idea.",
+    "Experiment Design": "Used to scope the smallest test that can answer an important product question.",
+    "AI-assisted Prototyping": "Used to turn a product brief into something people can click, test, and react to quickly.",
+    "AI Product Workflows": "Used to combine research, PRDs, workflow specs, and prototypes into one faster product loop.",
+    Claude: "Used for CorpHire research, PRD drafts, and early prototype thinking.",
+    Codex: "Used to turn scoped product changes into working prototypes, then refine the UI, flow, and copy.",
+    Cursor: "Used for quick, targeted prototype changes after a product decision is clear.",
+    Lovable: "Used to build the first CorpHire MVP and test the flow with real users.",
+    Figma: "Used to turn product ideas into clear UI and handoff-ready flows at NoKasa.",
+    SQL: "Used to inspect product data and turn a vague question into something measurable.",
+    "Product Analytics": "Used to follow user behavior, drop-offs, and the metrics behind a product decision.",
   } as Record<string, string>,
 };
 

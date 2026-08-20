@@ -1,25 +1,25 @@
 export type PortfolioItem = {
   title: string;
-  category: "Teardown" | "Product Teardown" | "Case Study" | "Product Strategy" | "Product Analysis" | "Competitive Analysis" | "PRD / Research" | "In Progress";
+  category: "Product Note" | "Product Teardown" | "Product Exploration" | "Market Entry Analysis" | "Product Life Cycle Study" | "Product Design" | "Case Study" | "Product Audit" | "Competitive Analysis" | "Product Build";
   driveUrl: string;
-  note?: string;
+  overview: string;
 };
 
 export const portfolioItems: PortfolioItem[] = [
-  { title: "LinkedIn Jobs", category: "Product Teardown", driveUrl: "https://drive.google.com/drive/folders/1FoKCieLOZYUqCYj7ZdcQNJsRMMMVDxnI?usp=drive_link" },
-  { title: "Flipkart Minutes", category: "Product Strategy", driveUrl: "https://docs.google.com/document/d/1IurAao6pYjY1UFHa09I7rsFO9P4rrpl6/edit?usp=drive_link&ouid=105528318561955754122&rtpof=true&sd=true" },
-  { title: "VectorShift", category: "Product Strategy", driveUrl: "https://prompt-to-product-vectorshift.vercel.app/" },
-  { title: "Visiblie", category: "Product Strategy", driveUrl: "https://visibliememo.vercel.app/" },
-  { title: "Hair Healthcare", category: "Product Analysis", driveUrl: "https://docs.google.com/presentation/d/1WcamHpg8gjGHaOtcxTzkHUYAdIC2dbNt/edit?usp=sharing&ouid=105528318561955754122&rtpof=true&sd=true" },
-  { title: "TAL / Grapevine", category: "Teardown", driveUrl: "https://docs.google.com/document/d/1lG7w6ZAGpl9lwH40UDyxhw3Fh0og5YCj/edit?usp=drive_link&ouid=105528318561955754122&rtpof=true&sd=true", note: "Notes on trust, memory, and language consistency in an AI talent agent." },
-  { title: "BlinkMoney", category: "Teardown", driveUrl: "https://docs.google.com/document/d/1zJzS0G5vVO5jQOTY5Cqwdm0UR02jqIa5/edit?usp=sharing&ouid=105528318561955754122&rtpof=true&sd=true", note: "A teardown covering UX, compliance, and conversion." },
-  { title: "Vocallabs", category: "Teardown", driveUrl: "https://docs.google.com/document/d/1Pon0OtH-EO1PFkILNV17U-Bqig27qEZK/edit?usp=drive_link&ouid=105528318561955754122&rtpof=true&sd=true", note: "A look at conversation quality and reliability in a voice product." },
-  { title: "Apple", category: "Case Study", driveUrl: "https://docs.google.com/document/d/16DC9gRCA1bS7_p9QNloH_nOfmG2azQ5l-89d2RIywzU/edit?usp=drive_link" },
-  { title: "Yatra", category: "Case Study", driveUrl: "https://drive.google.com/drive/folders/1Afr9gvcUcc3kTM_XtmqhIV40mKgBAn2v?usp=sharing" },
-  { title: "Pixxel", category: "Case Study", driveUrl: "https://drive.google.com/drive/folders/1i5Eoomn8xW0zNKewfFNeBSXaUDDIm13U?usp=sharing", note: "A healthcare and space-tech case study." },
-  { title: "TwinMind", category: "Teardown", driveUrl: "https://drive.google.com/drive/folders/1I1oyouHFoRVhPw5iPa53HUf77kH5annP?usp=sharing" },
-  { title: "MPassport Seva", category: "Case Study", driveUrl: "https://drive.google.com/file/d/1WP6CbNMvaSUPg1w7DPAyIdkS9Gmq5pb9/view?usp=sharing" },
-  { title: "Josh Talks", category: "Case Study", driveUrl: "https://drive.google.com/drive/folders/1Qxt87CDQkMZnlHOPI5feqMlmKfi0kV3S?usp=sharing" },
-  { title: "Newton School", category: "Competitive Analysis", driveUrl: "https://docs.google.com/document/d/1q5HhBxSla2xYUm1yaywdzAKoWNbMzQ0b/edit?usp=sharing&ouid=105528318561955754122&rtpof=true&sd=true" },
-  { title: "CorpHire build docs", category: "In Progress", driveUrl: "https://drive.google.com/drive/folders/1kr91IG-EPZZ_C2y8NcKBfRn07P_suPdv?usp=sharing", note: "The PRD, design system, and stack behind CorpHire. The Work panel has the case study." },
+  { title: "LinkedIn Jobs", category: "Product Note", driveUrl: "https://drive.google.com/drive/folders/1FoKCieLOZYUqCYj7ZdcQNJsRMMMVDxnI?usp=drive_link", overview: "A post-apply workspace that keeps the job description, resume, notes, and interview context on the company page." },
+  { title: "Flipkart Minutes", category: "Product Note", driveUrl: "https://docs.google.com/document/d/1IurAao6pYjY1UFHa09I7rsFO9P4rrpl6/edit?usp=drive_link&ouid=105528318561955754122&rtpof=true&sd=true", overview: "A case for keeping browsing and cart access open after store hours, even when delivery is unavailable." },
+  { title: "VectorShift", category: "Product Exploration", driveUrl: "https://prompt-to-product-vectorshift.vercel.app/", overview: "A text-to-product flow that starts with the user's goal, then helps them review and test the AI workflow it creates." },
+  { title: "Visiblie", category: "Product Exploration", driveUrl: "https://visibliememo.vercel.app/", overview: "A recommendation explainability layer that helps marketers understand why AI picked a competitor and what to improve." },
+  { title: "Hair Healthcare", category: "Market Entry Analysis", driveUrl: "https://docs.google.com/presentation/d/1WcamHpg8gjGHaOtcxTzkHUYAdIC2dbNt/edit?usp=sharing&ouid=105528318561955754122&rtpof=true&sd=true", overview: "A US telehealth market analysis focused on helping hair-loss patients stay on treatment long enough to see results." },
+  { title: "TAL / Grapevine", category: "Product Teardown", driveUrl: "https://docs.google.com/document/d/1lG7w6ZAGpl9lwH40UDyxhw3Fh0og5YCj/edit?usp=drive_link&ouid=105528318561955754122&rtpof=true&sd=true", overview: "A teardown of an AI talent product, focused on trust, memory, and keeping the conversation consistent." },
+  { title: "BlinkMoney", category: "Product Teardown", driveUrl: "https://docs.google.com/document/d/1zJzS0G5vVO5jQOTY5Cqwdm0UR02jqIa5/edit?usp=sharing&ouid=105528318561955754122&rtpof=true&sd=true", overview: "A fintech teardown that looks at onboarding failures, trust signals, and clearer recovery when things go wrong." },
+  { title: "Vocallabs", category: "Product Teardown", driveUrl: "https://docs.google.com/document/d/1Pon0OtH-EO1PFkILNV17U-Bqig27qEZK/edit?usp=drive_link&ouid=105528318561955754122&rtpof=true&sd=true", overview: "A voice AI teardown focused on conversation quality, reliability, and the feedback loop behind better calls." },
+  { title: "Apple", category: "Product Life Cycle Study", driveUrl: "https://docs.google.com/document/d/16DC9gRCA1bS7_p9QNloH_nOfmG2azQ5l-89d2RIywzU/edit?usp=drive_link", overview: "A product life-cycle study of the iPhone, from its premium launch to ecosystem-led growth and maturity." },
+  { title: "Yatra", category: "Product Design", driveUrl: "https://drive.google.com/drive/folders/1Afr9gvcUcc3kTM_XtmqhIV40mKgBAn2v?usp=sharing", overview: "An RFQ-to-booking flow that helps teams create requests, compare quotes, choose vendors, and confirm bookings." },
+  { title: "Pixxel", category: "Case Study", driveUrl: "https://drive.google.com/drive/folders/1i5Eoomn8xW0zNKewfFNeBSXaUDDIm13U?usp=sharing", overview: "A space-data product case study that explores turning satellite imagery into a useful and focused product opportunity." },
+  { title: "TwinMind", category: "Product Audit", driveUrl: "https://drive.google.com/drive/folders/1I1oyouHFoRVhPw5iPa53HUf77kH5annP?usp=sharing", overview: "A CPO-style product review covering priorities, user experience, and a practical path for the product to improve." },
+  { title: "MPassport Seva", category: "Case Study", driveUrl: "https://drive.google.com/file/d/1WP6CbNMvaSUPg1w7DPAyIdkS9Gmq5pb9/view?usp=sharing", overview: "A case study on making a high-stakes passport journey easier to understand and complete." },
+  { title: "Josh Talks", category: "Product Design", driveUrl: "https://drive.google.com/drive/folders/1Qxt87CDQkMZnlHOPI5feqMlmKfi0kV3S?usp=sharing", overview: "Product work across Indian AI datasets: image collection, transcription quality checks, and voice AI evaluation." },
+  { title: "Newton School", category: "Competitive Analysis", driveUrl: "https://docs.google.com/document/d/1q5HhBxSla2xYUm1yaywdzAKoWNbMzQ0b/edit?usp=sharing&ouid=105528318561955754122&rtpof=true&sd=true", overview: "A comparison of modern tech education models across curriculum, outcomes, cost, and student value." },
+  { title: "CorpHire build docs", category: "Product Build", driveUrl: "https://drive.google.com/drive/folders/1kr91IG-EPZZ_C2y8NcKBfRn07P_suPdv?usp=sharing", overview: "The PRD, design system, build checklist, and stack behind CorpHire's reverse hiring marketplace." },
 ];

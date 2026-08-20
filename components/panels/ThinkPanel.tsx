@@ -3,7 +3,7 @@
 import { portfolioItems } from "@/data/portfolio";
 import { thinkScenarios } from "@/data/content";
 import { useState } from "react";
-import { ExternalLink } from "lucide-react";
+import { ChevronDown, ExternalLink } from "lucide-react";
 
 export default function ThinkPanel() {
   return (
@@ -12,33 +12,8 @@ export default function ThinkPanel() {
         <p className="font-mono-label text-xs text-accent mb-3">
           PRODUCT NOTES
         </p>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-          {portfolioItems.map((item) => (
-            <a
-              key={item.title}
-              href={item.driveUrl || "#"}
-              target={item.driveUrl ? "_blank" : undefined}
-              rel="noopener noreferrer"
-              className={`flex items-center justify-between gap-2 px-3 py-2.5 rounded-lg border border-border text-sm transition-colors ${
-                item.driveUrl
-                  ? "hover:border-accent hover:bg-accent-soft cursor-pointer"
-                  : "opacity-50 cursor-not-allowed"
-              }`}
-              onClick={(e) => {
-                if (!item.driveUrl) e.preventDefault();
-              }}
-            >
-              <div>
-                <span className="text-charcoal">{item.title}</span>
-                <span className="block text-xs text-charcoal-soft">
-                  {item.category}
-                </span>
-              </div>
-              {item.driveUrl && (
-                <ExternalLink size={14} className="text-accent shrink-0" />
-              )}
-            </a>
-          ))}
+        <div className="grid grid-cols-1 items-start gap-2 sm:grid-cols-2">
+          {portfolioItems.map((item) => <PortfolioCard key={item.title} item={item} />)}
         </div>
       </div>
 
@@ -53,6 +28,42 @@ export default function ThinkPanel() {
         </div>
       </div>
     </div>
+  );
+}
+
+function PortfolioCard({ item }: { item: (typeof portfolioItems)[number] }) {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <article className="rounded-lg border border-border transition-colors hover:border-accent/50">
+      <div className="flex items-center gap-2 px-3 py-2.5">
+        <button
+          onClick={() => setIsOpen((open) => !open)}
+          aria-expanded={isOpen}
+          className="flex min-w-0 flex-1 items-center justify-between gap-2 text-left"
+        >
+          <span className="min-w-0">
+            <span className="block text-sm text-charcoal">{item.title}</span>
+            <span className="block text-xs text-charcoal-soft">{item.category}</span>
+          </span>
+          <ChevronDown size={15} className={`shrink-0 text-charcoal-soft transition-transform ${isOpen ? "rotate-180" : ""}`} />
+        </button>
+        <a
+          href={item.driveUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`Open ${item.title}`}
+          className="shrink-0 rounded p-1.5 text-accent transition-colors hover:bg-accent-soft"
+        >
+          <ExternalLink size={14} />
+        </a>
+      </div>
+      {isOpen && (
+        <p className="border-t border-border px-3 py-2.5 text-xs leading-relaxed text-charcoal-soft">
+          {item.overview}
+        </p>
+      )}
+    </article>
   );
 }
 
