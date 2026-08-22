@@ -3,6 +3,11 @@ export type PortfolioItem = {
   category: "Product Note" | "Product Teardown" | "Product Exploration" | "Market Entry Analysis" | "Product Life Cycle Study" | "Product Design" | "Case Study" | "Product Audit" | "Competitive Analysis" | "Product Build";
   driveUrl: string;
   overview: string;
+  readingOptions?: {
+    label: string;
+    description: string;
+    url: string;
+  }[];
 };
 
 export const portfolioItems: PortfolioItem[] = [
@@ -21,5 +26,22 @@ export const portfolioItems: PortfolioItem[] = [
   { title: "MPassport Seva", category: "Case Study", driveUrl: "https://drive.google.com/file/d/1WP6CbNMvaSUPg1w7DPAyIdkS9Gmq5pb9/view?usp=sharing", overview: "A case study on making a high-stakes passport journey easier to understand and complete." },
   { title: "Josh Talks", category: "Product Design", driveUrl: "https://drive.google.com/drive/folders/1Qxt87CDQkMZnlHOPI5feqMlmKfi0kV3S?usp=sharing", overview: "Product work across Indian AI datasets: image collection, transcription quality checks, and voice AI evaluation." },
   { title: "Newton School", category: "Competitive Analysis", driveUrl: "https://docs.google.com/document/d/1q5HhBxSla2xYUm1yaywdzAKoWNbMzQ0b/edit?usp=sharing&ouid=105528318561955754122&rtpof=true&sd=true", overview: "A comparison of modern tech education models across curriculum, outcomes, cost, and student value." },
-  { title: "CorpHire build docs", category: "Product Build", driveUrl: "https://drive.google.com/drive/folders/1kr91IG-EPZZ_C2y8NcKBfRn07P_suPdv?usp=sharing", overview: "The PRD, design system, build checklist, and stack behind CorpHire's reverse hiring marketplace." },
+  {
+    title: "CorpHire build docs",
+    category: "Product Build",
+    driveUrl: "https://drive.google.com/drive/folders/1kr91IG-EPZZ_C2y8NcKBfRn07P_suPdv?usp=sharing",
+    overview: "The product story and the detailed PRD, technical architecture, and UI/UX design specs behind CorpHire.",
+    readingOptions: [
+      {
+        label: "Product case study",
+        description: "For PMs, recruiters, or anyone who wants to quickly understand the idea.",
+        url: "https://drive.google.com/file/d/1egBKXY8nYymp4VLR8YKpr7QA75xYfUxr/view?usp=sharing",
+      },
+      {
+        label: "Full product docs",
+        description: "For technical readers and anyone who wants the deeper PRD, architecture, and UI/UX detail.",
+        url: "https://drive.google.com/drive/folders/1kr91IG-EPZZ_C2y8NcKBfRn07P_suPdv?usp=sharing",
+      },
+    ],
+  },
 ];

@@ -33,6 +33,14 @@ export default function WorkPanel() {
               <ExternalLink size={12} /> Live
             </a>
             <a
+              href={corphire.docsUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-1 text-xs px-2.5 py-1.5 rounded-full border border-border hover:border-accent hover:bg-accent-soft transition-colors text-charcoal"
+            >
+              <ExternalLink size={12} /> Read docs
+            </a>
+            <a
               href={corphire.loomUrl}
               target="_blank"
               rel="noopener noreferrer"

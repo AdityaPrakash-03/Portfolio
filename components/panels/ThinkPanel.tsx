@@ -59,9 +59,30 @@ function PortfolioCard({ item }: { item: (typeof portfolioItems)[number] }) {
         </a>
       </div>
       {isOpen && (
-        <p className="border-t border-border px-3 py-2.5 text-xs leading-relaxed text-charcoal-soft">
-          {item.overview}
-        </p>
+        <div className="space-y-2 border-t border-border px-3 py-2.5">
+          <p className="text-xs leading-relaxed text-charcoal-soft">{item.overview}</p>
+          {item.readingOptions && (
+            <div className="grid gap-2">
+              {item.readingOptions.map((option) => (
+                <a
+                  key={option.label}
+                  href={option.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-md border border-border px-2.5 py-2 transition-colors hover:border-accent hover:bg-accent-soft"
+                >
+                  <span className="flex items-center justify-between gap-2 text-xs font-medium text-charcoal">
+                    {option.label}
+                    <ExternalLink size={13} className="shrink-0 text-accent" />
+                  </span>
+                  <span className="mt-0.5 block text-xs leading-relaxed text-charcoal-soft">
+                    {option.description}
+                  </span>
+                </a>
+              ))}
+            </div>
+          )}
+        </div>
       )}
     </article>
   );

@@ -57,6 +57,7 @@ export const corphire = {
   hook: "One profile instead of the same form over and over.",
   liveUrl: "https://corphire.lovable.app",
   loomUrl: "https://www.loom.com/share/0d48d52f2ecd42c9b6e45db75464fe8f",
+  docsUrl: "https://drive.google.com/drive/folders/1kr91IG-EPZZ_C2y8NcKBfRn07P_suPdv?usp=sharing",
   problem: {
     label: "Problem",
     text: "Job seekers keep entering the same details on different application portals. Recruiters face their own version of the problem. They search LinkedIn, message people one by one, check if they are interested, and send interview links separately. Both sides spend too much time doing repeat work.",
