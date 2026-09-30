@@ -82,6 +82,17 @@ function PortfolioCard({ item }: { item: (typeof portfolioItems)[number] }) {
               ))}
             </div>
           )}
+          {!item.readingOptions && (
+            <a
+              href={item.driveUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1 text-xs font-medium text-accent transition-colors hover:text-charcoal"
+            >
+              Read full
+              <ExternalLink size={13} />
+            </a>
+          )}
         </div>
       )}
     </article>
