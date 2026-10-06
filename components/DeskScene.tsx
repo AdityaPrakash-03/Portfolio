@@ -95,7 +95,7 @@ export default function DeskScene({ onOpenPanel }: DeskSceneProps) {
           </InteractiveObject>
 
           <InteractiveObject
-            label={`Open signals: ${featuredCertification.title}`}
+            label={`Open certificates: ${featuredCertification.title}`}
             onClick={() => onOpenPanel("signals")}
             rotateOnHover
           >
@@ -105,7 +105,7 @@ export default function DeskScene({ onOpenPanel }: DeskSceneProps) {
             <rect x="668" y="89" width="64" height="4" rx="2" fill="#E4E0D8" />
             <circle cx="703" cy="110" r="10" fill="#E8EDFF" />
             <path d="M699 110l3 3 6-7" fill="none" stroke="#2F5EFF" strokeWidth="2" />
-            <text x="703" y="148" textAnchor="middle" fill="#4A4A4D" fontSize="11" fontFamily="var(--font-mono, monospace)">SIGNALS</text>
+            <text x="703" y="148" textAnchor="middle" fill="#4A4A4D" fontSize="9" fontFamily="var(--font-mono, monospace)">CERTIFICATES</text>
           </InteractiveObject>
 
           <g>
@@ -130,24 +130,24 @@ export default function DeskScene({ onOpenPanel }: DeskSceneProps) {
 
           <foreignObject x="191" y="71" width="434" height="232">
             <div className="flex h-full flex-col overflow-hidden rounded-[5px] bg-[#000000] px-5 py-4 text-slate-100">
-              <div className="flex items-center justify-between font-mono text-[7px] tracking-[0.16em] text-slate-500">
+              <div className="flex items-center justify-between font-mono text-[8px] font-medium tracking-[0.14em] text-slate-400">
                 <span>ADITYA / DESKTOP</span>
-                <span className="flex items-center gap-1 text-blue-300"><span className="h-1.5 w-1.5 rounded-full bg-blue-400" />RUNNING</span>
+                <span className="flex items-center gap-1 text-blue-200"><span className="h-1.5 w-1.5 rounded-full bg-blue-400" />RUNNING</span>
               </div>
               <div className="flex flex-1 flex-col items-center justify-center">
                 <div className="mb-5 text-center">
-                  <p className="font-mono text-[8px] tracking-[0.2em] text-blue-300">PORTFOLIO OS</p>
+                  <p className="font-mono text-[9px] font-medium tracking-[0.16em] text-blue-200">PORTFOLIO OS</p>
                   <p className="mt-1 text-sm font-medium tracking-tight text-white">Choose an app to explore.</p>
                 </div>
                 <div className="grid w-full grid-cols-5 gap-2">
                   <MonitorApp label="Work" caption="case study" icon={BriefcaseBusiness} onClick={() => onOpenPanel("work")} />
                   <MonitorApp label="Think" caption="notes" icon={Lightbulb} onClick={() => onOpenPanel("think")} />
                   <MonitorApp label="About" caption="profile" icon={UserRound} onClick={() => onOpenPanel("about")} />
-                  <MonitorApp label="Signals" caption="proof" icon={BadgeCheck} onClick={() => onOpenPanel("signals")} />
+                  <MonitorApp label="Certificates" caption="proof" icon={BadgeCheck} onClick={() => onOpenPanel("signals")} />
                   <MonitorApp label="Toolbox" caption="stack" icon={Wrench} onClick={() => onOpenPanel("toolbox")} />
                 </div>
               </div>
-              <div className="flex items-center justify-between border-t border-white/10 pt-2 font-mono text-[6px] text-slate-500"><span>OPEN: {corphire.title}</span><span>05 APPS</span></div>
+              <div className="flex items-center justify-between border-t border-white/10 pt-2 font-mono text-[7px] font-medium text-slate-400"><span>OPEN: {corphire.title}</span><span>05 APPS</span></div>
             </div>
           </foreignObject>
 
@@ -209,7 +209,7 @@ export default function DeskScene({ onOpenPanel }: DeskSceneProps) {
                 <CommandItem label="Work" shortcut="W" icon={BriefcaseBusiness} onClick={() => { setIsCommandPaletteOpen(false); onOpenPanel("work"); }} />
                 <CommandItem label="Think" shortcut="T" icon={Lightbulb} onClick={() => { setIsCommandPaletteOpen(false); onOpenPanel("think"); }} />
                 <CommandItem label="About" shortcut="A" icon={UserRound} onClick={() => { setIsCommandPaletteOpen(false); onOpenPanel("about"); }} />
-                <CommandItem label="Signals" shortcut="S" icon={BadgeCheck} onClick={() => { setIsCommandPaletteOpen(false); onOpenPanel("signals"); }} />
+                <CommandItem label="Certificates" shortcut="S" icon={BadgeCheck} onClick={() => { setIsCommandPaletteOpen(false); onOpenPanel("signals"); }} />
                 <CommandItem label="Toolbox" shortcut="B" icon={Wrench} onClick={() => { setIsCommandPaletteOpen(false); onOpenPanel("toolbox"); }} />
               </div>
               <p className="px-1 pt-4 font-mono-label text-[10px] text-charcoal-soft">Press ESC to close. Use Ctrl K to open.</p>
@@ -238,7 +238,7 @@ function InteractiveObject({ children, label, onClick, rotateOnHover = false }: 
 }
 
 function MonitorApp({ label, caption, icon: Icon, onClick }: { label: string; caption: string; icon: LucideIcon; onClick: () => void }) {
-  return <button onClick={onClick} aria-label={`Open ${label}`} className="group flex flex-col items-center text-center"><span className="flex aspect-square w-full items-center justify-center rounded-lg border border-white/15 bg-white/[0.08] text-blue-300 transition group-hover:-translate-y-0.5 group-hover:border-blue-300 group-hover:bg-blue-400 group-hover:text-white"><Icon size={15} strokeWidth={1.7} /></span><span className="mt-1.5 block text-[7px] font-medium text-white">{label}</span><span className="mt-0.5 block text-[6px] text-slate-500">{caption}</span></button>;
+  return <button onClick={onClick} aria-label={`Open ${label}`} className="group flex flex-col items-center text-center"><span className="flex aspect-square w-full items-center justify-center rounded-lg border border-white/15 bg-white/[0.08] text-blue-200 transition group-hover:-translate-y-0.5 group-hover:border-blue-300 group-hover:bg-blue-400 group-hover:text-white"><Icon size={16} strokeWidth={1.7} /></span><span className="mt-1.5 block text-[8px] font-medium text-white">{label}</span><span className="mt-0.5 block text-[7px] text-slate-400">{caption}</span></button>;
 }
 
 function CommandItem({ label, shortcut, icon: Icon, onClick }: { label: string; shortcut: string; icon: LucideIcon; onClick: () => void }) {

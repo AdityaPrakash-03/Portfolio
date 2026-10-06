@@ -22,7 +22,7 @@ const panelMeta: Record<
   work: { label: "WORK", title: "What I've built" },
   think: { label: "THINK", title: "How I think" },
   about: { label: "ABOUT", title: "A little context" },
-  signals: { label: "SIGNALS", title: "Certifications & credentials" },
+  signals: { label: "CERTIFICATES", title: "Certifications & credentials" },
   toolbox: { label: "TOOLBOX", title: "What I build with" },
 };
 
@@ -49,7 +49,7 @@ export default function Home() {
         <DeskScene onOpenPanel={(p) => setActivePanel(p)} />
 
         {/* Closing CTA */}
-        <section className="max-w-2xl mx-auto px-5 md:px-8 pb-24 text-center">
+        <section className="max-w-2xl mx-auto px-5 md:px-8 pb-8 text-center">
           <h2 className="font-display text-2xl md:text-3xl font-semibold text-charcoal mb-3">
             {finalCta.heading}
           </h2>
@@ -62,6 +62,10 @@ export default function Home() {
               Let&apos;s talk
             </button>
           </div>
+          <p className="mx-auto mt-10 max-w-md border-t border-border pt-6 font-mono-label text-xs font-medium leading-relaxed text-charcoal-soft">
+            <span aria-hidden="true" className="mr-1 text-sm">☕</span>
+            Currently brainstorming, building, and overthinking product flows at 1 AM so you do not have to. I put the useful bits on X.
+          </p>
         </section>
       </main>
 
@@ -110,7 +114,7 @@ export default function Home() {
         </div>
       )}
 
-      <footer className="border-t border-border py-8">
+      <footer className="border-t border-border py-6">
         <div className="max-w-5xl mx-auto px-5 md:px-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-charcoal-soft">
           <span>Aditya Prakash</span>
           <span className="font-mono-label text-xs">

@@ -10,7 +10,7 @@ const links: { label: string; panel: "work" | "think" | "about" | "signals" }[] 
   { label: "Work", panel: "work" },
   { label: "Think", panel: "think" },
   { label: "About", panel: "about" },
-  { label: "Signals", panel: "signals" },
+  { label: "Certificates", panel: "signals" },
 ];
 
 export default function Nav({ onOpenPanel }: NavProps) {
